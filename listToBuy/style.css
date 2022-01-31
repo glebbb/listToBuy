@@ -1,0 +1,62 @@
+html, body {
+
+    font-size: 18px;
+
+}
+
+.container {
+
+    margin: 20px auto;
+    max-width: 1000px;
+
+}
+
+select, input, button {
+
+    padding: 8px;
+    font-size: 1rem;
+
+}
+
+.array::before {
+
+    content: "{";
+    font-size: 3rem;
+
+}
+
+
+.array::after {
+
+    content: "}";
+    font-size: 3rem;
+
+}
+
+
+.array{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+
+
+.array div {
+
+    position: relative;
+}
+
+.array div span {
+
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -20px;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+}
